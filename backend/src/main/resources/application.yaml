@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/zonama
+    username: root
+    password: ${ZONAMA_PASSWORD}
+  jpa:
+    hiberante:
+      ddl-auto: update
+    show-sql: true
